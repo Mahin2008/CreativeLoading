@@ -13,7 +13,7 @@
     background: #000;
 }
 
-#LoadingScreen .load {
+#LoadingScreen .loader .loader-text .load {
     font-family: 'Roboto Mono', monospace;
     font-weight: 700;
     font-size: 30px;
@@ -36,7 +36,7 @@
 }
 
 
-#LoadingScreen .load h3 {
+#LoadingScreen .loader .loader-text .load h3 {
     font-size: 30px;
     animation: big ease 0.75s infinite;
     animation-direction: alternate;
@@ -55,7 +55,7 @@
 }
 
 
-.loader {
+#LoadingScreen .loader {
     width: 100%;
     height: 100px;
     display: flex;
@@ -63,7 +63,7 @@
     position: relative;
 }
 
-.loader .loader-text {
+#LoadingScreen .loader .loader-text {
     display: flex;
     align-items: center;
     position: absolute;
@@ -71,7 +71,7 @@
     transform: translateX(-50%);
 }
 
-.loader-line .line {
+#LoadingScreen .loader .loader-line .line {
     width: 15px;
     height: 5px;
     color: #fff;
